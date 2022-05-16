@@ -8,7 +8,7 @@ dependencies {
     testImplementation("io.cucumber:cucumber-java")
     testImplementation("io.cucumber:cucumber-junit-platform-engine")
     testImplementation("org.junit.platform:junit-platform-suite")
-    testImplementation("org.junit.jupiter:junit-jupiter")
+    testImplementation ("org.assertj:assertj-core:3.6.1")
 }
 
 repositories {
