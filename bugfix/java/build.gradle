@@ -1,0 +1,31 @@
+allprojects {
+    apply plugin: 'java-library'
+
+    java {
+        toolchain {
+            languageVersion = JavaLanguageVersion.of(17)
+        }
+    }
+
+    version = '1.2.1'
+
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        implementation([group: 'commons-io', name: 'commons-io', version: '2.4'],
+                [group: 'com.google.guava', name: 'guava', version: '21.0'])
+
+        testImplementation([group: 'org.junit.jupiter', name: 'junit-jupiter', version: '5.7.0'],
+                [group: 'org.assertj', name: 'assertj-core', version: '3.2.0'],
+                [group: 'org.mockito', name: 'mockito-core', version: '1.10.19'])
+    }
+
+    test {
+        useJUnitPlatform()
+    }
+}
+
+

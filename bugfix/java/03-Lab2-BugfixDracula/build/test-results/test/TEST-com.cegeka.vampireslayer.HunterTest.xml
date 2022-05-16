@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cegeka.vampireslayer.HunterTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-05-06T12:21:10" hostname="CI00166388" time="0.039">
+  <properties/>
+  <testcase name="canHunt_givenDayTime_thenCannotHunt()" classname="com.cegeka.vampireslayer.HunterTest" time="0.036"/>
+  <testcase name="canHunt_givenNightTime_thenCanHunt()" classname="com.cegeka.vampireslayer.HunterTest" time="0.001"/>
+  <testcase name="canHunt_givenNightTime_thenCanHuntAtMidnight()" classname="com.cegeka.vampireslayer.HunterTest" time="0.001"/>
+  <testcase name="canHunt_givenNightTime_thenCanHuntAt6()" classname="com.cegeka.vampireslayer.HunterTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
